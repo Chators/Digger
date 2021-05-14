@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <environment include="Development">
+        <link rel="shortcut icon" type="image/png" href="http://localhost:8500/dist/logoDigger.png" />
+    </environment>
+    <environment exclude="Development">
+        <!-- Not Complete -->
+    </environment>
+    <title>Digger</title>
+</head>
+<body>
+    <div id="app"></div>
+    <environment include="Development">
+        <script type="text/javascript" src="http://localhost:8500/dist/build.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <!-- Not Complete -->
+    </environment>
+</body>
+</html>

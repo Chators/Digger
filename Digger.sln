@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digger.Server", "src\Digger.WebApp\Digger.Server\Digger.Server\Digger.Server.csproj", "{2166DF8E-7351-4578-9E2F-D02E8BD2A06A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiStock.DAL", "src\Digger.DAL\DiStock.DAL\DiStock.DAL\DiStock.DAL.csproj", "{3345E09F-BDF7-460F-9B3E-0BD0CA2916F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiStock.DB", "src\Digger.DB\DiStock\DiStock\DiStock.DB.csproj", "{946D5CB1-0599-4FBD-A41A-6C3E9A226A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Digger.Server.Tests", "src\Digger.Server.Tests\Digger.Server.Tests.csproj", "{D4E51478-DCEF-4BAA-A02D-DAEA1A5319C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGraph.DB", "src\Digger.DB\DGraph\DGraph.DB\DGraph.DB.csproj", "{4C5C32D1-31A6-4DF1-A2CD-DC1A10FF0318}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DGraph.DAL", "src\Digger.DAL\DGraph.DAL\DGraph.DAL\DGraph.DAL.csproj", "{422F8D58-6EF8-48DF-A5A0-5D7D2E942D33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2166DF8E-7351-4578-9E2F-D02E8BD2A06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2166DF8E-7351-4578-9E2F-D02E8BD2A06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2166DF8E-7351-4578-9E2F-D02E8BD2A06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2166DF8E-7351-4578-9E2F-D02E8BD2A06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3345E09F-BDF7-460F-9B3E-0BD0CA2916F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3345E09F-BDF7-460F-9B3E-0BD0CA2916F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3345E09F-BDF7-460F-9B3E-0BD0CA2916F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3345E09F-BDF7-460F-9B3E-0BD0CA2916F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946D5CB1-0599-4FBD-A41A-6C3E9A226A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946D5CB1-0599-4FBD-A41A-6C3E9A226A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946D5CB1-0599-4FBD-A41A-6C3E9A226A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946D5CB1-0599-4FBD-A41A-6C3E9A226A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E51478-DCEF-4BAA-A02D-DAEA1A5319C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E51478-DCEF-4BAA-A02D-DAEA1A5319C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E51478-DCEF-4BAA-A02D-DAEA1A5319C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E51478-DCEF-4BAA-A02D-DAEA1A5319C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C5C32D1-31A6-4DF1-A2CD-DC1A10FF0318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C5C32D1-31A6-4DF1-A2CD-DC1A10FF0318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C5C32D1-31A6-4DF1-A2CD-DC1A10FF0318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C5C32D1-31A6-4DF1-A2CD-DC1A10FF0318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422F8D58-6EF8-48DF-A5A0-5D7D2E942D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422F8D58-6EF8-48DF-A5A0-5D7D2E942D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422F8D58-6EF8-48DF-A5A0-5D7D2E942D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422F8D58-6EF8-48DF-A5A0-5D7D2E942D33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A983D83C-124F-4077-9972-253468B07813}
+	EndGlobalSection
+EndGlobal

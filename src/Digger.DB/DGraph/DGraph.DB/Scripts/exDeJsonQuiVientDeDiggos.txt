@@ -1,0 +1,31 @@
+{
+[
+{
+"Data" : "+339817264693",
+"Source" : "TwitterSearchPhone",
+"TypeOfData" : "Phone Number"
+}
+{
+"Data" : "0609157788",
+"Source" : "TwitterSearchPhone",
+"TypeOfData" : "Phone Number"
+}
+]
+[
+{
+"Data" : "arobasemachin@aol.fr",
+"Source" : "SearchMailByName",
+"TypeOfData" : "Mail"
+}
+{
+"Data" : "arobaseohmachin@yahoo.fr",
+"Source" : "SearchMailByName",
+"TypeOfData" : "Mail"
+}
+{
+"Data" : "arobaoijsemachin@darkmdr.fr",
+"Source" : "SearchMailByName",
+"TypeOfData" : "Mail"
+}
+]
+}

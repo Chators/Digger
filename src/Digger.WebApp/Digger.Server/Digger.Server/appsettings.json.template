@@ -1,0 +1,14 @@
+﻿{
+  "Diggos": {
+    "Url": "http://88.177.168.133:2615/",
+    "SecretKey": "FZIJuhguig9328BDFZUBFOZF54T4Y937Ed@edhaiuhi"
+  },
+  "DiStock": {
+    "ConnectionString": "Server=.\\SQLEXPRESS;Database=Digger.DiStock;Trusted_Connection=True;"
+  },
+  "DGraph": {
+    "Host": "localhost",
+    "Port": 9080,
+    "CompleteAdress": "localhost:9080"
+  }
+}

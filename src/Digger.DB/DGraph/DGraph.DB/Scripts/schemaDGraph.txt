@@ -1,0 +1,8 @@
+﻿author: string @index(term) .
+data: string @index(term) .
+lastUpdate: dateTime @index(hour) .
+link: uid @reverse @count .
+note: string @index(fulltext) .
+projectId: int @index(int) .
+source: string @index(term) .
+typeOfData: string @index(term) .

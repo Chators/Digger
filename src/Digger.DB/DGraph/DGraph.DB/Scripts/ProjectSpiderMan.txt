@@ -1,0 +1,47 @@
+﻿{
+	set
+	{
+		_:data1 <author> "Chators" .
+		_:data1 <data> "Spiderman" .
+		_:data1 <note> "Il faut trouver le spider-man" .
+		_:data1 <projectId> "1" .
+		_:data1 <typeOfData> "Pseudo" .
+
+		_:data2 <author> "Chators" .
+		_:data2 <data> "0615650412" .
+		_:data2 <projectId> "1" .
+		_:data2 <source> "http://pagejaune.fr" .
+		_:data2 <typeOfData> "Telephone" .
+
+		_:data3 <author> "Chators" .
+		_:data3 <data> "Brooklyn" .
+		_:data3 <projectId> "1" .
+		_:data3 <source> "https://googlestreet.com" .
+		_:data3 <typeOfData> "Lieux" .
+
+		_:data4 <author> "Chators" .
+		_:data4 <data> "Jonah Jameson" .
+		_:data4 <projectId> "1" .
+		_:data4 <source> "https://liberation.fr" .
+		_:data4 <typeOfData> "Nom" .
+
+		_:data5 <author> "Hugo" .
+		_:data5 <data> "Marie Jeanne" .
+		_:data5 <projectId> "1" .
+		_:data5 <note> "meuf de spiderman" .
+		_:data5 <typeOfData> "Nom" .
+
+		_:data6 <author> "Jolann" .
+		_:data6 <data> "Reporter" .
+		_:data6 <projectId> "1" .
+		_:data6 <typeOfData> "Profession" .
+
+		_:data1 <link> _:data2 .
+		_:data1 <link> _:data3 .
+		_:data1 <link> _:data5 .
+		_:data1 <link> _:data6 .
+		_:data3 <link> _:data4 .
+		_:data4 <link> _:data5 .
+		_:data4 <link> _:data6 .
+	}
+}

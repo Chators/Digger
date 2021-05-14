@@ -1,0 +1,32 @@
+﻿{
+	set
+	{
+		_:data1 <author> "Chators" .
+		_:data1 <data> "Superman" .
+		_:data1 <note> "mais qui est superman mdr?" .
+		_:data1 <projectId> "2" .
+		_:data1 <typeOfData> "Pseudo" .
+
+		_:data2 <author> "Chators" .
+		_:data2 <data> "0611565402" .
+		_:data2 <projectId> "2" .
+		_:data2 <source> "http://pagejaune.fr" .
+		_:data2 <typeOfData> "Telephone" .
+
+		_:data3 <author> "Chators" .
+		_:data3 <data> "Klark Kent" .
+		_:data3 <projectId> "2" .
+		_:data3 <source> "https://googlestreet.com" .
+		_:data3 <typeOfData> "Nom" .
+
+		_:data4 <author> "Madjid" .
+		_:data4 <data> "Lois Lane" .
+		_:data4 <projectId> "2" .
+		_:data4 <source> "https://liberation.fr" .
+		_:data4 <typeOfData> "Nom" .
+
+		_:data1 <link> _:data2 .
+		_:data1 <link> _:data3 .
+		_:data3 <link> _:data4 .
+	}
+}

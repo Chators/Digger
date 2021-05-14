@@ -1,0 +1,37 @@
+﻿{
+	set
+	{
+		_:data1 <author> "Chators" .
+		_:data1 <data> "Batman" .
+		_:data1 <note> "Il faut trouver le batman" .
+		_:data1 <projectId> "3" .
+		_:data1 <typeOfData> "Pseudo" .
+
+		_:data2 <author> "Chators" .
+		_:data2 <data> "Robin" .
+		_:data2 <projectId> "3" .
+		_:data2 <typeOfData> "Pseudo" .
+
+		_:data3 <author> "Chators" .
+		_:data3 <data> "Bruce Wayne" .
+		_:data3 <projectId> "3" .
+		_:data3 <typeOfData> "Nom" .
+
+		_:data4 <author> "Chators" .
+		_:data4 <data> "0676765584" .
+		_:data4 <projectId> "3" .
+		_:data4 <typeOfData> "Telephone" .
+
+		_:data5 <author> "Jolann" .
+		_:data5 <data> "Kebabland" .
+		_:data5 <projectId> "3" .
+		_:data5 <note> "blanchisseuse" .
+		_:data5 <typeOfData> "Enseigne" .
+
+		_:data1 <link> _:data2 .
+		_:data1 <link> _:data3 .
+		_:data2 <link> _:data3 .
+		_:data2 <link> _:data4 .
+		_:data4 <link> _:data5 .
+	}
+}

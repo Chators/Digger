@@ -1,0 +1,6 @@
+./dgraph.exe zero
+./dgraph.exe server --lru_mb 2048
+./dgraph-ratel.exe
+
+IMPORTANT : lancer les serveurs dans cette ordre, si ce n’est pas fait, une erreur sera affichée, 
+il faudra alors supprimer les dossiers ZW , P et W qui ont été créer et recommencer  
